@@ -1,0 +1,25 @@
+#lista1 {
+    list-style-type: none;
+    background-color: #F4F5F4;
+    line-height: 20px;
+    border:1px solid #F69F5B;
+    width:200px;
+    font-family:Arial;
+    padding-right:10px;
+    padding-left:10px;
+  }
+#li1{
+    background-color: #A4A9AA;
+}
+#li2{
+    background-color: #F18A54;
+}
+#li3{
+    background-color: #C82F1D;
+}
+#li4{
+    background-color: #252D31;
+}
+#li5{
+    background-color: #FF5254;
+}

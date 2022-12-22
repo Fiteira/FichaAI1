@@ -1,0 +1,194 @@
+html{
+    background-color: #F5F5F5;
+}
+body
+{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+h2
+{
+font-size: 30px;
+}
+
+/*----------------------------Header----------------------------*/
+header{
+    background-color:#50BBCF;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+
+.homepage{
+    height: 100%;
+    width: 60%;
+    margin-left: 18%;
+    margin-right: 15%;
+    display: inline-table;
+    background-color: #4FCCE3;
+}
+
+
+#nome{
+    color:#2D697B;
+    margin-left: 5%;
+    font-size: 50px;
+}
+
+#nome2{
+    color:#2D697B;
+    margin-left: 5%;
+    font-size: 25px;
+    margin-top: -35px;
+}
+#linha1{
+    margin: 0;
+    height: 5px;
+    border: 0;
+    box-shadow: inset 6px 6px #2D6975;
+} 
+
+#ref1{
+    margin-left: 20%;
+    position: absolute;
+}
+
+#ref2{
+    width: 120%;
+    height: 40px;
+    background-color: #2D6975;
+    display: flex;
+    color: white;
+    margin-top: -22px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.text_ref{
+    padding: 6px 12px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*----------------------------main----------------------------*/
+main{
+    background-color: white;
+    height: 100%;
+    width: 60%;
+    margin-left: 18%;
+    margin-right: 15%;
+    display: inline-block;
+}
+section{
+    margin-left: 3%;
+}
+
+#Quem_sou
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    font-size: 15px;
+}
+
+#imagem
+{
+    float: right;
+    position: relative;
+}
+
+img{
+  
+    border-color: black;
+    border-style: inset;
+    margin-top: -100%;
+    margin-right: 10%;
+}
+
+.linhas{
+    box-shadow: inset 6px 6px #2D6975;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 2px;
+}
+/*--------------contacte-me--------------*/
+fieldset{
+    margin-right: 3%;
+    font-size: 15px;;
+}
+
+label
+{
+    margin-left: 2%;
+    float: left;
+    width: 10%;
+    margin-top: 3%;
+    min-width: 80px;
+}
+.div_input
+{
+    margin-left: 14%;
+    width: 90%;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+.input
+{
+    width: 92%;
+    border: 1px solid rgb(0, 0, 0);
+    height: 25px;
+    margin-right: 2%;
+}
+
+#mensagem
+{
+    height: 70px;
+}
+#button
+{
+    background-color: #50BBCF;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 1.7%;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+/*--------------Meus links--------------*/
+a
+{
+text-decoration: none;
+color:black;
+font-size: 15px;
+}
+
+/*--------------Footer--------------*/
+footer
+{
+    height: 110px;
+    width: 100%;
+    display: inline-block;
+    background-color: #919191;
+    position: relative;
+    color: white;
+}
+.footer_div
+{
+    font-size: 18px;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.footer_texto
+{
+    color:white;
+    font-size: 18px;
+    text-decoration: underline;
+}

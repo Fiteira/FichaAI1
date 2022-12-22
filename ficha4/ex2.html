@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testes de Regex</title>
+    </head>
+        <body>
+            <h1>Testes de Regex</h1>
+            <form action="">
+                <label for="apenas_texto">Apenas texto:</label>
+                <input type="text" id="apenas_texto" name="apenas_texto" placeholder="Apenas texto" pattern="([A-Za-z\s])*"><br><br>
+                
+                <label for="apenas_numeros">Apenas números:</label>
+                <input type="text" id="apenas_numeros" name="apenas_numeros" placeholder="Apenas numeros" pattern="([0-9]+)"><br><br>
+
+                <label for="apenas_a_z">Apenas "a" a "z":</label>
+                <input type="text" id="apenas_a_z" name="apenas_a_z" placeholder="Apenas a a z" pattern="([a-z]+)"><br><br>
+
+                <label for="apenas_ipv">IPV:</label>
+                <input type="text" id="apenas_ipv" name="apenas_ipv" placeholder="Apenas IPV" pattern="(ipv|IPV)"><br><br>
+
+                <label for="nao_ipv">NÃO IPV:</label>
+                <input type="text" id="nao_ipv" name="nao_ipv" placeholder="Nao ter o IPV" pattern="[^ipv|^IPV]+"><br><br>
+                
+                <label for="sempre_15">Sempre 15:</label>
+                <input type="text" id="sempre_15" name="sempre_15" placeholder="15 caracteres Maiúsculo" pattern="([A-Z]{15})"><br><br>
+
+                <label for="n_telemovel">Número de telemóvel:</label>
+                <input type="text" id="n_telemovel" name="n_telemovel" placeholder="xxx-xxx-xxx e xxx xxx xxx" pattern="(9[1236]\d?\(|-|)?(\d{3})?(|-|)?(\d{3}))"><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+        </body>
+</html>

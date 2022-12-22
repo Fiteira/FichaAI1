@@ -1,0 +1,22 @@
+body{
+    background-color: #C6C6C6;
+    
+}
+h1.titulo{
+    color: white;
+}
+p{
+    font-family: Verdana,Arial;
+    font-size: 1.5em;
+}
+#img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    
+}
+#texto{
+    display: inline;
+    width: 60%;
+    float: right;
+}
